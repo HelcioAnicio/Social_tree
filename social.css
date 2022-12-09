@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    height: 1050px;
+    width: 1680px;
+    min-width: 375px;
+    border: 1px solid;
+    color: #BB99DD;
+}
+
+.Conteudo {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* IMAGE AND INSTAGRAM */
+.Perfil {
+    width: 13.3125rem;
+    height: 13.3125rem;
+    border-radius: 100%;
+    border: 3px solid #BB99DD;
+    padding: 5px;
+}
+
+.Imagem {
+    width: 13.3125rem;
+    height: 13.3125rem;
+    border-radius: 100%;
+    /* border: 5px solid #BB99DD; */
+}
+
+section > p {
+    margin-top: -55px;
+    font-weight: 300;
+}
+
+
+/* LINKS */
+
+.links {
+    font-weight: 600;
+    font-size: 20px;
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    width: 25rem;
+    height: 3rem;
+    border: 2px solid;
+    border-radius: 5%;
+    gap: 5px;
+}
+
+a {
+    display: block;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 50px;
+    background: black;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* ICONS */
