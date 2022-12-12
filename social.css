@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    height: 1050px;
-    width: 1680px;
+    height: 900px;
+    width: 1440px;
     min-width: 375px;
     border: 1px solid;
     color: #BB99DD;
@@ -13,17 +13,16 @@ body {
     margin: auto;
     height: 100%;
     width: 100%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     text-align: center;
     align-items: center;
 }
 
 
 /* IMAGE AND INSTAGRAM */
-.Perfil {
+.Picture {
     width: 13.3125rem;
     height: 13.3125rem;
     border-radius: 100%;
@@ -35,11 +34,9 @@ body {
     width: 13.3125rem;
     height: 13.3125rem;
     border-radius: 100%;
-    /* border: 5px solid #BB99DD; */
 }
 
 section > p {
-    margin-top: -55px;
     font-weight: 300;
 }
 
@@ -51,30 +48,34 @@ section > p {
     font-size: 20px;
     height: 30%;
     width: 30%;
-    border: 2px solid;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 5% ;
+}
+
+.links > a {
+    text-decoration: none;
+    width: 15rem;
+    height: 2rem;
+    padding: 0.75rem 6.25rem;
+    border: 4px solid;
+    border-radius: 8px;
+    color: #BB99DD;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li {
-    width: 25rem;
-    height: 3rem;
-    border: 2px solid;
-    border-radius: 5%;
-    gap: 5px;
-}
-
-a {
-    display: block;
-    border: 2px solid;
-    text-decoration: none;
-    padding: 50px;
-    background: black;
-    /* text-align: center;
-    justify-content: center;
-    align-items: center; */
-}
 
 /* ICONS */
+
+.Icons {
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
