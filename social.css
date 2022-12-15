@@ -1,38 +1,54 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Poppins", sans-serif;
-    height: 900px;
-    width: 1440px;
-    min-width: 375px;
+    height: 100vh; 
+    width: 100vw;
+    /* height: 900px;
+    width: 1440px; */
+    min-width: 30vw;
     border: 1px solid;
     color: #BB99DD;
 }
 
 .Conteudo {
     margin: auto;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid;
     display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
 }
 
 
 /* IMAGE AND INSTAGRAM */
+.Perfil {
+    /* height: 28vh; */
+    width: 17vw;
+    min-width: 10rem;
+    height: 16rem;
+    /* width: 15rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    background-color: aquamarine;
+}
+
 .Picture {
-    width: 13.3125rem;
-    height: 13.3125rem;
-    border-radius: 100%;
-    border: 3px solid #BB99DD;
+    width: 11rem;
+    height: 11rem;
     padding: 5px;
+    border: 3px solid #BB99DD;
+    border-radius: 100%;
 }
 
 .Imagem {
-    width: 13.3125rem;
-    height: 13.3125rem;
+    width: 11rem;
+    height: 11rem;
     border-radius: 100%;
 }
 
@@ -46,23 +62,24 @@ section > p {
 .links {
     font-weight: 600;
     font-size: 20px;
-    height: 30%;
-    width: 30%;
+    height: 40vh;
+    width: 20vw;
+    min-width: 12.5rem;
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 5% ;
+    background-color: aquamarine;
 }
 
 .links > a {
     text-decoration: none;
-    width: 15rem;
-    height: 2rem;
-    padding: 0.75rem 6.25rem;
-    border: 4px solid;
-    border-radius: 8px;
     color: #BB99DD;
+    width: 17rem;
+    height: 2.5rem;
+    border: 2px solid;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,10 +89,11 @@ section > p {
 /* ICONS */
 
 .Icons {
-    width: 25rem;
+    width: 10rem;
     height: 3rem;
-    border: 1px solid;
+    margin-top: 2%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: aquamarine;
 }
