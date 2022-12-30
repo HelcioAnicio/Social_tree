@@ -4,36 +4,32 @@ body {
     font-family: "Poppins", sans-serif;
     height: 100vh; 
     width: 100vw;
-    min-width: 30vw;
-    border: 1px solid;
-    color: #BB99DD;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
+    color: #BB99DD;
 }
+
 
 /* IMAGE AND INSTAGRAM */
 header {
     height: 28vh; 
     width: 17vw;    
-    /* min-width: 10vw; */
+    min-width: 150px;
     display: flex;
     flex-shrink: 2;
     flex-wrap: wrap;
     justify-content: center;
-    align-content:space-around;
-    border: 1px solid;
-    background-color: aquamarine;
 }
 
 .Picture {
     width: 70%;
     height: 70%;
-    /* padding: 5px; */
-    border: 3px solid #BB99DD;
     border-radius: 100%;
+    border: 3px solid #BB99DD;
+    margin-top: 5%;
 }
 
 .Imagem {
@@ -48,27 +44,24 @@ header > p {
 
 
 /* LINKS */
-
 main {
     font-weight: 600;
     font-size: 20px;
     height: 40vh;
     width: 20vw;
-    min-width: 12.5rem;
+    min-width: 200px;
     display: flex;
     flex-shrink: 2;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
-    background-color: aquamarine;
 }
 
 main > a {
     text-decoration: none;
     color: #BB99DD;
-    width: 17rem;
-    height: 2.5rem;
+    width: 100%;
+    height: 13%;
     border: 2px solid;
     border-radius: 8px;
     display: flex;
@@ -78,15 +71,13 @@ main > a {
 
 
 /* ICONS */
-
 footer {
-    width: 10rem;
-    height: 3rem;
-    margin-top: 2%;
+    width: 11%;
+    min-width: 165px;
+    height: 5%;
+    min-height: 45px;
     display: flex;
     flex-shrink: 1;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid;
-    background-color: aquamarine;
 }
