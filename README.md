@@ -30,7 +30,7 @@ The users should be able to:
 
 ### Screenshot
 
-![Captura de tela 2023-01-02 094735](https://user-images.githubusercontent.com/117602073/210236870-c097dca8-f9de-4489-8c0a-cdd73f295f0a.png)
+![image](https://user-images.githubusercontent.com/117602073/223825648-dce3ca06-b6c1-47a9-a711-b0c8a2ef67e7.png)
 
 
 ### Links
